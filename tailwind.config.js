@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const { spacing, fontFamily } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,7 +10,14 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['IBM Plex Sans', ...fontFamily.sans]
+      },
+    },
   },
-  plugins: [],
+  variants: {
+    typography: ['dark']
+  },
+  plugins: [require('@tailwindcss/typography')],
 };

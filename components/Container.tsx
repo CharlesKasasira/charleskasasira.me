@@ -41,6 +41,7 @@ function Container(props) {
       "Front-end developer, Computer Science enthusiast, youtube creator",
     type: "website",
     ...customProps,
+    image: "https://charleskasasira.vercel.app/static/images/charles-kasasira.png"
   };
   return (
     <div className="bg-[#f6f7f8] dark:bg-[#000000]">
@@ -52,6 +53,7 @@ function Container(props) {
         <meta name="twitter:site" content="@KasasiraC" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={meta.image} />
       </Head>
       <div className="flex flex-col max-w-4xl lg:max-w-5xl mx-auto min-h-screen bg-white dark:bg-[#18181b] shadow-lg px-10 md:px-12">
         <div className="flex flex-col justify-center">

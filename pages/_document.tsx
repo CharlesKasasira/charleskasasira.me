@@ -13,7 +13,7 @@ export default function Document(props) {
           content="Charles Kasasira 's portfolio website"
         />
       </Head>
-      <body className="bg-[#f6f7f8] dark:bg-gray-900">
+      <body className="bg-[#f6f7f8] dark:bg-black">
         <Main />
         <NextScript />
       </body>

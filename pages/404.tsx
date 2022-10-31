@@ -13,7 +13,7 @@ function NotFound() {
           Page Not Found
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-16">
-          Not to worry you didn't break the internet, I just could not find this page. You can head over to my homepage or checkout my youtube videos.
+          Not to worry you didn&apos;t break the internet, I just could not find this page. You can head over to my homepage or checkout my youtube videos.
         </p>
         <Link href="/">
           <span className="p-1 sm:p-4 w-64 font-bold mx-auto bg-gray-200 dark:bg-gray-800 text-center rounded-md text-black dark:text-white">Back to Home</span>

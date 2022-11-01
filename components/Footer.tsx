@@ -25,7 +25,7 @@ export default function Footer() {
               About
             </span>
           </Link>
-          <Link href="/newsletter">
+          <Link href="/projects">
             <span className="text-gray-500 hover:text-gray-600 transition">
               Projects
             </span>

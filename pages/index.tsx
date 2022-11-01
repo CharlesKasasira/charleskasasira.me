@@ -182,9 +182,16 @@ export default function Home() {
                 <p>
                   I have uploaded over 50+ tutorials and planning to add more.
                 </p>
-                <button className="bg-black text-white rounded-lg py-1 px-5 w-full mt-2">
-                  Subscribe
-                </button>
+                <a
+                  href="https://www.youtube.com/channel/UClhrdUmdjbQi9fMq3R65BVw?sub_confirmation=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex justify-center items-center mt-2"
+                >
+                  <span className="bg-black text-white rounded-lg py-1 px-5 w-full flex justify-center items-center">
+                    Subscribe
+                  </span>
+                </a>
               </div>
               <div className="w-72 outline outline-1 rounded py-2 px-5">
                 <h3 className="flex gap-2 items-center font-medium mb-2">

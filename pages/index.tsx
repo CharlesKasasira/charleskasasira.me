@@ -27,12 +27,24 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-400 mb-10">
                 Hello, I&apos;m{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline">
-                  @charleskasasira
+                  <a
+                    href="https://twitter.com/kasasiraC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @charleskasasira
+                  </a>
                 </span>
                 , a software designer and developer based in Kampala, Uganda. I
                 am currently working at{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline">
-                  @theablestate
+                  <a
+                    href="https://twitter.com/theablestate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @theablestate
+                  </a>
                 </span>{" "}
                 where I am part of a team that designs and develops technologies
                 that empower regular people to achieve great things. I also make
@@ -49,26 +61,50 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-2 mb-10 md:mb-10">
-            <AiFillYoutube
-              size={25}
-              color="#4b5563"
-              className="cursor-pointer"
-            />
-            <AiFillGithub
-              size={25}
-              color="#4b5563"
-              className="cursor-pointer"
-            />
-            <AiOutlineTwitter
-              size={25}
-              color="#4b5563"
-              className="cursor-pointer"
-            />
-            <AiFillLinkedin
-              size={25}
-              color="#4b5563"
-              className="cursor-pointer"
-            />
+            <a
+              href="https://www.youtube.com/channel/UClhrdUmdjbQi9fMq3R65BVw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillYoutube
+                size={25}
+                color="#4b5563"
+                className="cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://www.github.com/charleskasasira"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub
+                size={25}
+                color="#4b5563"
+                className="cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://www.twitter.com/kasasirac"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineTwitter
+                size={25}
+                color="#4b5563"
+                className="cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/charleskasasira/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin
+                size={25}
+                color="#4b5563"
+                className="cursor-pointer"
+              />
+            </a>
           </div>
 
           <div className="my-10 flex flex-col md:flex-row gap-5">
@@ -98,9 +134,13 @@ export default function Home() {
                 <p className="text-sm font-light pl-2 border-l-4 mb-2">
                   October 25, 2022
                 </p>
-                <h3 className="font-medium mb-2">Subscribe to my youtube channel</h3>
+                <h3 className="font-medium mb-2">
+                  Subscribe to my youtube channel
+                </h3>
                 <p className="text-gray-500 mb-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor tellus in vitae, quam et. Lacus, senectus tincidunt ipsum pretium.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
+                  tellus in vitae, quam et. Lacus, senectus tincidunt ipsum
+                  pretium.
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -108,9 +148,13 @@ export default function Home() {
                 <p className="text-sm font-light pl-2 border-l-4 mb-2">
                   October 25, 2022
                 </p>
-                <h3 className="font-medium mb-2">Subscribe to my youtube channel</h3>
+                <h3 className="font-medium mb-2">
+                  Subscribe to my youtube channel
+                </h3>
                 <p className="text-gray-500 mb-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor tellus in vitae, quam et. Lacus, senectus tincidunt ipsum pretium.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
+                  tellus in vitae, quam et. Lacus, senectus tincidunt ipsum
+                  pretium.
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -118,9 +162,13 @@ export default function Home() {
                 <p className="text-sm font-light pl-2 border-l-4 mb-2">
                   October 25, 2022
                 </p>
-                <h3 className="font-medium mb-2">Subscribe to my youtube channel</h3>
+                <h3 className="font-medium mb-2">
+                  Subscribe to my youtube channel
+                </h3>
                 <p className="text-gray-500 mb-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor tellus in vitae, quam et. Lacus, senectus tincidunt ipsum pretium.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
+                  tellus in vitae, quam et. Lacus, senectus tincidunt ipsum
+                  pretium.
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -151,7 +199,7 @@ export default function Home() {
                       alt="ablestate"
                       width={35}
                       height={35}
-                     />
+                    />
                   </div>
                   <div className="flex justify-between flex-grow">
                     <div className="flex flex-col">

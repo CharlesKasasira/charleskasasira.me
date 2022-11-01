@@ -38,7 +38,7 @@ function Container(props) {
   const meta = {
     title: "Charles Kasasira - Developer, creator",
     description:
-      "Front-end developer, Computer Science enthusiast, youtube creator",
+      "Front-end developer, Computer Science enthusiast, and youtube creator",
     type: "website",
     ...customProps,
     image: "https://charleskasasira.vercel.app/static/images/charles-kasasira.png"
@@ -47,6 +47,7 @@ function Container(props) {
     <div className="bg-[#f6f7f8] dark:bg-[#000000]">
       <Head>
         <title>{meta.title}</title>
+        <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Charles Kasasira" />

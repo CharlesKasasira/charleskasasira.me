@@ -7,43 +7,15 @@ import fetcher from "utils/fetcher";
 import { YouTube } from "utils/types";
 
 export default function Youtube({ response }) {
-  // console.log(response)
-  // const { data, error } = useSWR('/api/youtube', async () => {
-  //   const response = await fetch("/api/youtube")
-  //   const data = await response.json()
-  //   console.log("the data is ",data)
-  //   return data
-  // })
-  // const myfetcher = async () => {
-  // console.log("something")
-  // await fetch("/api/youtube").then((response) => {
-  //   console.log("Help");
-  // });
-  // const data = await response.json();
-  // console.log("the data is ", data);
-  // return data;
-  // };
-  // const { data, error } = useSWR("/api/youtube", myfetcher);
-
-  // console.log(data);
-
-  // const fetcher = async (url) => await axios.get(url).then((res) => res.data);
-  // const { data, error } = useSWR(`https://randomuser.me/api/?results=6`, fetcher);
   const { data, error } = useSWR<YouTube>(`api/youtube`, fetcher);
 
   const subscriberCount = new String(data?.subscriberCount);
   const viewCount = new String(data?.viewCount);
   const videoCount = new String(data?.videoCount);
 
-  console.log(data);
-  // console.log("what")
-  // console.log(error)
   return (
     <Container title="Youtube - Charles Kasasira">
       <div className="flex flex-col justify-center items-start mb-16 w-full text-black dark:text-white">
-        {/* <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          About Me
-        </h1> */}
         <div className="w-full flex flex-col items-center justify-center my-10 min-h-[calc(40vh)]">
           <div className="flex flex-col items-center mb-10">
             <h2 className="font-bold text-7xl">{subscriberCount}</h2>

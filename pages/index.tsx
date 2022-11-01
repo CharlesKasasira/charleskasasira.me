@@ -135,7 +135,7 @@ export default function Home() {
                 CSS Art: Instagram Logo with pure CSS
                 </h3>
                 <p className="text-gray-500 mb-1 line-clamp-3">
-                In this (mostly code, "little plain text") post, I show you how I created an Instagram logo using CSS only (plus a little HTML). You can find the full source code here: CodePen
+                In this (mostly code, &quot;little plain text&quot;) post, I show you how I created an Instagram logo using CSS only (plus a little HTML). You can find the full source code here: CodePen
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -159,7 +159,7 @@ export default function Home() {
                 HOW TO: Click outside to close in Javascript
                 </h3>
                 <p className="text-gray-500 mb-1 line-clamp-3">
-                Hey, Charles Kasasira here, time to time, I write 2-minutes packaged articles on how to do some cool stuff in web development, and in this short "Do It Yourself", I would like to show you how you too can write a short piece of code using HTML, CSS and vanilla javascript to close a modal or any context by clicking outside, just like twitter's context menu.
+                Hey, Charles Kasasira here, time to time, I write 2-minutes packaged articles on how to do some cool stuff in web development, and in this short &quot;Do It Yourself&quot;, I would like to show you how you too can write a short piece of code using HTML, CSS and vanilla javascript to close a modal or any context by clicking outside, just like twitter&apos;s context menu.
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>

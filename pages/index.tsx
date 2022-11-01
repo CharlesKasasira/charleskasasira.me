@@ -21,9 +21,6 @@ export default function Home() {
                 <br />
                 and small youtuber
               </h1>
-              {/* <h2 className="text-gray-700 text-xl dark:text-gray-200 mb-4">
-                Software designer , developer and small youtuber
-              </h2> */}
               <p className="text-gray-600 dark:text-gray-400 mb-10">
                 Hello, I&apos;m{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline">
@@ -132,15 +129,13 @@ export default function Home() {
             <div>
               <div className="p-4 rounded cursor-pointer hover:bg-zinc-50 mb-5">
                 <p className="text-sm font-light pl-2 border-l-4 mb-2">
-                  October 25, 2022
+                  October 20, 2022
                 </p>
                 <h3 className="font-medium mb-2">
-                  Subscribe to my youtube channel
+                CSS Art: Instagram Logo with pure CSS
                 </h3>
-                <p className="text-gray-500 mb-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
-                  tellus in vitae, quam et. Lacus, senectus tincidunt ipsum
-                  pretium.
+                <p className="text-gray-500 mb-1 line-clamp-3">
+                In this (mostly code, "little plain text") post, I show you how I created an Instagram logo using CSS only (plus a little HTML). You can find the full source code here: CodePen
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -149,12 +144,10 @@ export default function Home() {
                   October 25, 2022
                 </p>
                 <h3 className="font-medium mb-2">
-                  Subscribe to my youtube channel
+                Cheat sheet: Arrays in JavaScript
                 </h3>
-                <p className="text-gray-500 mb-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
-                  tellus in vitae, quam et. Lacus, senectus tincidunt ipsum
-                  pretium.
+                <p className="text-gray-500 mb-1 line-clamp-3">
+                JavaScript Arrays are a very flexible data structure and are used as lists, stacks, queues, etc. Every value in an array is associated with a numeric index starting with 0. Here is everything you need to get started with arrays
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -163,12 +156,10 @@ export default function Home() {
                   October 25, 2022
                 </p>
                 <h3 className="font-medium mb-2">
-                  Subscribe to my youtube channel
+                HOW TO: Click outside to close in Javascript
                 </h3>
-                <p className="text-gray-500 mb-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
-                  tellus in vitae, quam et. Lacus, senectus tincidunt ipsum
-                  pretium.
+                <p className="text-gray-500 mb-1 line-clamp-3">
+                Hey, Charles Kasasira here, time to time, I write 2-minutes packaged articles on how to do some cool stuff in web development, and in this short "Do It Yourself", I would like to show you how you too can write a short piece of code using HTML, CSS and vanilla javascript to close a modal or any context by clicking outside, just like twitter's context menu.
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -180,7 +171,7 @@ export default function Home() {
                 </h3>
                 <hr className="mb-2" />
                 <p>
-                  I have uploaded over 50+ tutorials and planning to add more.
+                  I have uploaded over 60+ tutorials and planning to add more.
                 </p>
                 <a
                   href="https://www.youtube.com/channel/UClhrdUmdjbQi9fMq3R65BVw?sub_confirmation=1"

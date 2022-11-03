@@ -32,6 +32,8 @@ function Container(props) {
   const [mounted, setMounted] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
 
+  const router = useRouter();
+
   useEffect(() => setMounted(true), []);
 
   const { children, ...customProps } = props;
@@ -49,6 +51,8 @@ function Container(props) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
+        <meta property="og:url" content={`https://www.charleskasasira.com${router.asPath}`} />
+        <link rel="canonical" href={`https://www.charleskasasira.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Charles Kasasira" />
         <meta property="og:description" content={meta.description} />

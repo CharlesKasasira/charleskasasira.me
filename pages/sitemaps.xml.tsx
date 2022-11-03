@@ -6,8 +6,8 @@ function generateSiteMap() {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!--We manually set the two URLs we know already-->
      <url>
-       <loc>http://charleskasasira.vercel.app</loc>
-       <lastmod>2022-10-31</lastmod>
+       <loc>http://www.charleskasasira.com</loc>
+       <lastmod>2022-11-03</lastmod>
      </url>
    </urlset>
  `;

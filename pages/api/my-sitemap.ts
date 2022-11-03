@@ -6,9 +6,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   // An array with your links
   const links = [
     { url: "", changefreq: "daily", priority: 0.3 },
-    { url: "/blog/my-first-blog-post/", changefreq: "daily", priority: 0.3 },
-    { url: "/blog/my-second-blog-post", changefreq: "daily", priority: 0.3 },
-    { url: "/blog/my-third-blog-post/", changefreq: "daily", priority: 0.3 },
+    { url: "/articles/", changefreq: "daily", priority: 0.3 },
+    { url: "/projects/", changefreq: "daily", priority: 0.3 },
+    { url: "/youtube/", changefreq: "daily", priority: 0.3 },
   ];
 
   // Create a stream to write to

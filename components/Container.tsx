@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic'
 import Head from "next/head";
 import NextLink from "next/link";
 import { useState, useEffect } from "react";
@@ -5,7 +6,10 @@ import { useTheme } from "next-themes";
 import cn from "classnames";
 import { useRouter } from "next/router";
 import MobileMenu from "./MobileMenu";
-import Footer from "./Footer";
+const Footer = dynamic(() => import('./Footer'), {
+  ssr: false,
+});
+
 
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 

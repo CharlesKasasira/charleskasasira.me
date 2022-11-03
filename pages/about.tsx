@@ -8,8 +8,8 @@ export default function About() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About Me
         </h1>
-        <div className="mb-8 prose dark:prose-dark w-full">
-          <h2>Bio</h2>
+        <div className="mb-8 prose dark:prose-dark text-gray-600 dark:text-gray-400 w-full">
+          <h2 className="text-gray-800 dark:text-gray-200">Bio</h2>
           <p>
             Hello, I&apos;m{" "}
             <span className="font-medium text-gray-700 dark:text-gray-300 underline">
@@ -25,7 +25,7 @@ export default function About() {
             tutorial based videos on my small space on youtube. I am currently a
             sophomore student of B.S in Computer Science at Makerere University.
           </p>
-          <h3>Education</h3>
+          <h2 className="text-gray-800 dark:text-gray-200">Education</h2>
           <ul>
             <li>
               Pursing a B.S in computer science at Makerere University. (year
@@ -36,37 +36,39 @@ export default function About() {
               Chemistry, Mathematics, Computer Studies).
             </li>
           </ul>
-          <h3>Certifications</h3>
+          <h2 className="text-gray-800 dark:text-gray-200">Certifications</h2>
           <p>Front-End Development Libraries - FreeCodeCamp (working on the projects)</p>
           <p>Mobile Application Development with Flutter</p>
           <p>D3 Virtualizations - FreeCodeCamp</p>
           <p>JavaScript Data Structures and Algorithms - FreeCodeCamp</p>
           <p>Responsive Web Design - FreeCodeCamp</p>
-          <h2>Headshots</h2>
-          <h2>Links</h2>
+
+          <h2 className="text-gray-800 dark:text-gray-200">Headshots</h2>
+
+          <h2 className="text-gray-800 dark:text-gray-200">Links</h2>
           <ul>
             <li>
               Youtube:{" "}
-              <a href="https://youtube.com/charleskasasira">
+              <a href="https://youtube.com/charleskasasira" className="font-medium text-gray-700 dark:text-gray-300 underline">
                 https://youtube.com/charleskasasira
               </a>
             </li>
             <li>
-              Twitter: <a href="https://twitter.com/KasasiraC">@KasasiraC</a>
+              Twitter: <a href="https://twitter.com/KasasiraC" className="font-medium text-gray-700 dark:text-gray-300 underline">@KasasiraC</a>
             </li>
             <li>
               GitHub:{" "}
-              <a href="https://github.com/charleskasasira">@charleskasasira</a>
+              <a href="https://github.com/charleskasasira" className="font-medium text-gray-700 dark:text-gray-300 underline">@charleskasasira</a>
             </li>
             <li>
               Website:{" "}
-              <Link href="https://kasasira.pages.dev">
-                <span>https://kasasira.pages.dev</span>
+              <Link href="https://charleskasasira.com" className="font-medium text-gray-700 dark:text-gray-300 underline">
+                <span>https://charleskasasira.com</span>
               </Link>
             </li>
             <li>
               LinkedIn:{" "}
-              <a href="https://www.linkedin.com/in/charleskasasira/">
+              <a href="https://www.linkedin.com/in/charleskasasira/" className="font-medium text-gray-700 dark:text-gray-300 underline">
                 https://www.linkedin.com/in/charleskasasira
               </a>
             </li>

@@ -61,7 +61,7 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '175ms' }}
           >
-            <Link href="/guestbook">
+            <Link href="/about">
               <span className="flex w-auto pb-4">About</span>
             </Link>
           </li>
@@ -69,7 +69,7 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '200ms' }}
           >
-            <Link href="/dashboard">
+            <Link href="/articles">
               <span className="flex w-auto pb-4">Article</span>
             </Link>
           </li>
@@ -85,7 +85,7 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '275ms' }}
           >
-            <Link href="/snippets">
+            <Link href="/youtube">
               <span className="flex w-auto pb-4">Youtube</span>
             </Link>
           </li>

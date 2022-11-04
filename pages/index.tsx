@@ -62,6 +62,7 @@ export default function Home() {
               href="https://www.youtube.com/channel/UClhrdUmdjbQi9fMq3R65BVw"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Charles Kasasira's youtube"
             >
               <AiFillYoutube
                 size={25}
@@ -73,6 +74,7 @@ export default function Home() {
               href="https://www.github.com/charleskasasira"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Charles Kasasira's github"
             >
               <AiFillGithub
                 size={25}
@@ -84,6 +86,7 @@ export default function Home() {
               href="https://www.twitter.com/kasasirac"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Charles Kasasira's twitter"
             >
               <AiOutlineTwitter
                 size={25}
@@ -95,6 +98,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/charleskasasira/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Charles Kasasira's linkedin"
             >
               <AiFillLinkedin
                 size={25}
@@ -108,18 +112,24 @@ export default function Home() {
             <iframe
               // width="400"
               height="250"
+              loading="lazy"
+              title="How to create a custom upload file input"
               className="outline outline-1 rounded hover:shadow-2xl -rotate-2"
               src="https://www.youtube.com/embed/FtpN8QI9PuA"
             ></iframe>
             <iframe
               // width="400"
               height="250"
+              loading="lazy"
+              title="How to create a custom upload file input"
               className="outline outline-1 rounded hover:shadow-2xl rotate-2"
               src="https://www.youtube.com/embed/1czjJGA5dHQ"
             ></iframe>
             <iframe
               // width="400"
               height="250"
+              loading="lazy"
+              title="How to create a custom upload file input"
               className="outline outline-1 rounded hover:shadow-2xl -rotate-2"
               src="https://www.youtube.com/embed/DAYoeJgolYg"
             ></iframe>

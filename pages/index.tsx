@@ -62,7 +62,6 @@ export default function Home() {
               href="https://www.youtube.com/channel/UClhrdUmdjbQi9fMq3R65BVw"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Charles Kasasira's youtube"
             >
               <AiFillYoutube
                 size={25}
@@ -74,7 +73,6 @@ export default function Home() {
               href="https://www.github.com/charleskasasira"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Charles Kasasira's github"
             >
               <AiFillGithub
                 size={25}
@@ -86,7 +84,6 @@ export default function Home() {
               href="https://www.twitter.com/kasasirac"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Charles Kasasira's twitter"
             >
               <AiOutlineTwitter
                 size={25}
@@ -98,7 +95,6 @@ export default function Home() {
               href="https://www.linkedin.com/in/charleskasasira/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Charles Kasasira's linkedin"
             >
               <AiFillLinkedin
                 size={25}

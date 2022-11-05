@@ -185,7 +185,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="w-full flex justify-center items-center mt-2"
                 >
-                  <span className="bg-black text-white rounded-lg py-1 px-5 w-full flex justify-center items-center">
+                  <span className="transition ease-in-out delay-150 bg-black text-white dark:bg-white dark:text-black rounded-lg py-1 px-5 w-full flex justify-center items-center hover:shadow-lg hover:-translate-y-1">
                     Subscribe
                   </span>
                 </a>
@@ -236,7 +236,7 @@ export default function Home() {
                     <p className="text-sm font-light">June 2019</p>
                   </div>
                 </div>
-                <button className="bg-black text-white rounded-lg py-1 px-5 w-full mt-2">
+                <button className="transition ease-in-out delay-150 bg-black text-white dark:bg-white dark:text-black rounded-lg py-1 px-5 w-full mt-2 hover:shadow-lg hover:-translate-y-1">
                   Download CV
                 </button>
               </div>

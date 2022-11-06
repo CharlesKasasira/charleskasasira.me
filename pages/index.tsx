@@ -8,19 +8,36 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { MdOutlineWorkOutline } from "react-icons/md";
+import { motion, AnimateSharedLayout } from "framer-motion";
 
 export default function Home() {
+  const variants = {
+    hidden: { opacity: 0, x: -200, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opacity: 0, x: 0, y: -100 },
+  };
+
   return (
     <Suspense fallback={null}>
       <Container>
         <div className="flex flex-col mt-5">
           <div className="flex flex-col-reverse items-start">
             <div className="flex flex-col pr-8">
-              <h1 className="font-bold text-3xl md:text-4xl tracking-tight mb-5 text-black dark:text-white font-sans">
-                Software designer + developer 🦄,
-                <br />
-                and small youtuber
-              </h1>
+              <div className="overflow-x-hidden">
+                <motion.h1
+                  variants={variants} // Pass the variant object into Framer Motion
+                  initial="hidden" // Set the initial state to variants.hidden
+                  animate="enter" // Animated state to variants.enter
+                  exit="exit" // Exit state (used later) to variants.exit
+                  transition={{ type: "linear" }} // Set the transition to linear
+                  className="font-bold text-3xl md:text-4xl tracking-tight mb-5 text-black dark:text-white font-sans"
+                >
+                  Software designer + developer 🦄,
+                  <br />
+                  and small youtuber
+                </motion.h1>
+              </div>
+
               <p className="text-gray-600 dark:text-gray-400 mb-10">
                 Hello, I&apos;m{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline">
@@ -138,10 +155,13 @@ export default function Home() {
                   October 20, 2022
                 </p>
                 <h2 className="font-medium mb-2">
-                CSS Art: Instagram Logo with pure CSS
+                  CSS Art: Instagram Logo with pure CSS
                 </h2>
                 <p className="text-gray-600 text-sm dark:text-gray-400 mb-1 line-clamp-3">
-                In this (mostly code, &quot;little plain text&quot;) post, I show you how I created an Instagram logo using CSS only (plus a little HTML). You can find the full source code here: CodePen
+                  In this (mostly code, &quot;little plain text&quot;) post, I
+                  show you how I created an Instagram logo using CSS only (plus
+                  a little HTML). You can find the full source code here:
+                  CodePen
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -150,10 +170,13 @@ export default function Home() {
                   October 25, 2022
                 </p>
                 <h2 className="font-medium mb-2">
-                Cheat sheet: Arrays in JavaScript
+                  Cheat sheet: Arrays in JavaScript
                 </h2>
                 <p className="text-gray-600 text-sm dark:text-gray-400 mb-1 line-clamp-3">
-                JavaScript Arrays are a very flexible data structure and are used as lists, stacks, queues, etc. Every value in an array is associated with a numeric index starting with 0. Here is everything you need to get started with arrays
+                  JavaScript Arrays are a very flexible data structure and are
+                  used as lists, stacks, queues, etc. Every value in an array is
+                  associated with a numeric index starting with 0. Here is
+                  everything you need to get started with arrays
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>
@@ -162,10 +185,16 @@ export default function Home() {
                   October 25, 2022
                 </p>
                 <h2 className="font-medium mb-2">
-                HOW TO: Click outside to close in Javascript
+                  HOW TO: Click outside to close in Javascript
                 </h2>
                 <p className="text-gray-600 text-sm dark:text-gray-400 mb-1 line-clamp-3">
-                Hey, Charles Kasasira here, time to time, I write 2-minutes packaged articles on how to do some cool stuff in web development, and in this short &quot;Do It Yourself&quot;, I would like to show you how you too can write a short piece of code using HTML, CSS and vanilla javascript to close a modal or any context by clicking outside, just like twitter&apos;s context menu.
+                  Hey, Charles Kasasira here, time to time, I write 2-minutes
+                  packaged articles on how to do some cool stuff in web
+                  development, and in this short &quot;Do It Yourself&quot;, I
+                  would like to show you how you too can write a short piece of
+                  code using HTML, CSS and vanilla javascript to close a modal
+                  or any context by clicking outside, just like twitter&apos;s
+                  context menu.
                 </p>
                 <span className="text-sm text-red-400">Read more</span>
               </div>

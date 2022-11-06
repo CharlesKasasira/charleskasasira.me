@@ -26,7 +26,7 @@ export default function Youtube({ response }) {
                   <span className="animate-[ping_2s_ease-in-out_infinite] delay-75 absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
                 </span>
-                updating
+                Live update
               </span>
             </p>
           </div>

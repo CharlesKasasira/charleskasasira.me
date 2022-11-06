@@ -5,6 +5,7 @@ import Image from "next/image";
 import { AiFillStar } from 'react-icons/ai'
 import { RiUserUnfollowFill, RiGitRepositoryLine } from 'react-icons/ri'
 import { BiCodeBlock } from 'react-icons/bi'
+import GithubGraph from "components/GithubGraph";
 
 
 import fetcher from "utils/fetcher";
@@ -36,6 +37,11 @@ export default function Projects() {
           <h3 className="font-light flex items-center justify-between gap-1"><RiGitRepositoryLine /> public repos: <span className="font-medium">{public_repos}</span></h3>
           <h3 className="font-light flex items-center justify-between gap-1"><BiCodeBlock /> public gists: <span className="font-medium">{followers}</span></h3>
         </div>
+
+        <div className="flex justify-center w-full overflow-x-scroll">
+          <GithubGraph />
+        </div>
+        
         
       </div>
     </Container>

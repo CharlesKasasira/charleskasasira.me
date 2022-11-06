@@ -9,6 +9,7 @@ import MobileMenu from "./MobileMenu";
 const Footer = dynamic(() => import('./Footer'), {
   ssr: false,
 });
+import { motion, AnimateSharedLayout } from 'framer-motion'
 
 
 import { DarkModeSwitch } from "react-toggle-dark-mode";

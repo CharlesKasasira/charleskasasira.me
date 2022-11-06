@@ -12,12 +12,12 @@ export default function About() {
           <h2 className="text-gray-800 dark:text-gray-200">Bio</h2>
           <p>
             Hello, I&apos;m{" "}
-            <span className="font-medium text-gray-700 dark:text-gray-300 underline">
+            <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
               @charleskasasira
             </span>
             , a software designer and developer based in Kampala, Uganda 🇺🇬. I
             am currently working at{" "}
-            <span className="font-medium text-gray-700 dark:text-gray-300 underline">
+            <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
               @theablestate
             </span>{" "}
             where I am part of a team that designs and develops technologies

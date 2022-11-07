@@ -43,12 +43,12 @@ function Container(props) {
 
   const { children, ...customProps } = props;
   const meta = {
-    title: "Charles Kasasira - Developer, creator",
+    title: "Charles Kasasira - Developer, Creator",
     description:
       "Charles Kasasira is a Front-end developer, Computer Science enthusiast, and youtube creator",
     type: "website",
     ...customProps,
-    image: "https://www.charleskasasira.com/static/images/charles-kasasira.png"
+    image: "https://charleskasasira.com/static/images/charles-kasasira.png"
   };
   return (
     <div className="bg-[#f6f7f8] dark:bg-[#000000]">

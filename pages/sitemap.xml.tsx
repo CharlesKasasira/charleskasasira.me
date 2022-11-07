@@ -4,10 +4,17 @@
 function generateSiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <!--We manually set the two URLs we know already-->
      <url>
-       <loc>http://www.charleskasasira.com</loc>
-       <lastmod>2022-11-03</lastmod>
+       <loc>https://charleskasasira.com</loc>
+       <lastmod>2022-11-07</lastmod>
+     </url>
+     <url>
+       <loc>https://charleskasasira.com/articles</loc>
+       <lastmod>2022-11-07</lastmod>
+     </url>
+     <url>
+       <loc>https://charleskasasira.com/youtube</loc>
+       <lastmod>2022-11-07</lastmod>
      </url>
    </urlset>
  `;

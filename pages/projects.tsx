@@ -19,8 +19,6 @@ export default function Projects() {
   const public_repos = data?.public_repos
   const stars = data?.stars
 
-  console.log(data)
-
   return (
     <Container title="Projects - Charles Kasasira">
       <div className="flex flex-col justify-center items-start mb-16 w-full text-black dark:text-white">

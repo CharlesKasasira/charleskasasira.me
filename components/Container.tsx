@@ -1,4 +1,4 @@
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import NextLink from "next/link";
 import { useState, useEffect } from "react";
@@ -6,13 +6,13 @@ import { useTheme } from "next-themes";
 import cn from "classnames";
 import { useRouter } from "next/router";
 import MobileMenu from "./MobileMenu";
-const Footer = dynamic(() => import('./Footer'), {
+const Footer = dynamic(() => import("./Footer"), {
   ssr: false,
 });
-import { motion, AnimateSharedLayout } from 'framer-motion'
-
+import { motion, AnimateSharedLayout } from "framer-motion";
 
 import { DarkModeSwitch } from "react-toggle-dark-mode";
+import { menuData } from "utils/menuData";
 
 function NavItem({ href, text }) {
   const router = useRouter();
@@ -24,7 +24,7 @@ function NavItem({ href, text }) {
           isActive
             ? "font-semibold text-gray-800 dark:text-gray-200"
             : "font-normal text-gray-600 dark:text-gray-400",
-          "hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-zinc-800 transition-all"
+          "hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg transition-all"
         )}
       >
         {text}
@@ -48,16 +48,25 @@ function Container(props) {
       "Charles Kasasira is a Front-end developer, Computer Science enthusiast, and youtube creator",
     type: "website",
     ...customProps,
-    image: "https://charleskasasira.com/static/images/charles-kasasira.png"
+    image: "https://charleskasasira.com/static/images/charles-kasasira.png",
   };
+
+  const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <div className="bg-[#f6f7f8] dark:bg-[#000000]">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://www.charleskasasira.com${router.asPath}`} />
-        <link rel="canonical" href={`https://www.charleskasasira.com${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://www.charleskasasira.com${router.asPath}`}
+        />
+        <link
+          rel="canonical"
+          href={`https://www.charleskasasira.com${router.asPath}`}
+        />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Charles Kasasira" />
         <meta property="og:description" content={meta.description} />
@@ -75,14 +84,31 @@ function Container(props) {
             <a href="#skip" className="skip-nav">
               Skip to content
             </a>
-            <div className="ml-[-0.60rem]">
-              <MobileMenu />
-              <NavItem href="/" text="Home" />
-              <NavItem href="/about" text="About" />
-              <NavItem href="/articles" text="Articles" />
-              <NavItem href="/projects" text="Projects" />
-              <NavItem href="/youtube" text="Youtube" />
-            </div>
+            <AnimateSharedLayout>
+              <motion.div className="ml-[-0.60rem]">
+                <MobileMenu />
+                <motion.ul
+                  className="flex gap-1 relative z-10"
+                  onHoverEnd={() => setActiveIndex(null)}
+                >
+                  {menuData.map((menu, index) => (
+                    <motion.li
+                    onHoverStart={() => setActiveIndex(index)}
+                    className="relative px-2 inline-block  cursor-pointer z-10"
+                  >
+                    <NavItem href={menu.href} text={menu.text} />
+                    {activeIndex === index ? (
+                      <motion.span
+                        layoutId="cover"
+                        className="cover bg-[#eaeaea] dark:bg-zinc-800 absolute inset-0 -z-10 rounded-md"
+                      />
+                    ) : null}
+                    
+                  </motion.li>
+                  ))}
+                </motion.ul>
+              </motion.div>
+            </AnimateSharedLayout>
             <div className="nav-cta">
               <DarkModeSwitch
                 style={{ marginBottom: "0" }}

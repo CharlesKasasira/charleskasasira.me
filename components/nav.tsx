@@ -27,10 +27,10 @@ function NavItem({ href, text, activeIndex, setActiveIndex, index }) {
       <a
         href={href}
         // onClick={handleClick}
-        className="relative px-2 z-10 py-1 inline-block cursor-pointer"
+        className="relative px-2 z-10 py-2 inline-block cursor-pointer"
       >
         <span className="z-20">{text}</span>
-        {isActive ? <motion.span layoutId="cover" className="cover bg-[#eaeaea] absolute inset-0 -z-20 rounded-md" /> : null}
+        {isActive ? <motion.span layoutId="cover" className="cover bg-zinc-100 dark:bg-zinc-800 absolute inset-0 -z-20 rounded-md" /> : null}
       </a>
     </motion.li>
   );

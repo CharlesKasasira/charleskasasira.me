@@ -7,7 +7,7 @@ import { currencyFormatter } from "utils/numberFormatter";
 import fetcher from "utils/fetcher";
 import { YouTube } from "utils/types";
 
-export default function Youtube({ response }) {
+export default function Youtube({ }) {
   const { data, error } = useSWR<YouTube>(`api/youtube`, fetcher);
 
   const subscriberCount = new String(data?.subscriberCount);
@@ -47,12 +47,11 @@ export default function Youtube({ response }) {
   );
 }
 
-const getServerSideProps = async () => {
-  const response = await axios.get("/api/youtube");
+export const getServerSideProps = async () => {
+  // const response = await axios.get("https://charleskasasira.com/api/youtube");
 
   return {
     props: {
-      response,
     },
   };
 };

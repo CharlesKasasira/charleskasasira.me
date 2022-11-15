@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.charleskasasira.com/api/my-sitemap 
+Sitemap: https://.charleskasasira.com/api/sitemap.xml 

@@ -12,9 +12,7 @@ export default function About() {
           <h2 className="text-gray-800 dark:text-gray-200">Bio</h2>
           <p>
             Hello, I&apos;m{" "}
-            <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
-              @charleskasasira
-            </span>
+              Charles Kasasira
             , a software designer and developer based in Kampala, Uganda 🇺🇬. I
             am currently working at{" "}
             <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
@@ -50,7 +48,7 @@ export default function About() {
             <li>
               Youtube:{" "}
               <a href="https://youtube.com/charleskasasira" className="font-medium text-gray-700 dark:text-gray-300 underline">
-                https://youtube.com/charleskasasira
+                youtube.com/charleskasasira
               </a>
             </li>
             <li>
@@ -63,13 +61,13 @@ export default function About() {
             <li>
               Website:{" "}
               <Link href="https://charleskasasira.com" className="font-medium text-gray-700 dark:text-gray-300 underline">
-                <span>https://charleskasasira.com</span>
+                <span>charleskasasira.com</span>
               </Link>
             </li>
             <li>
               LinkedIn:{" "}
               <a href="https://www.linkedin.com/in/charleskasasira/" className="font-medium text-gray-700 dark:text-gray-300 underline">
-                https://www.linkedin.com/in/charleskasasira
+                linkedin.com/in/charleskasasira
               </a>
             </li>
           </ul>

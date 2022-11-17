@@ -7,8 +7,10 @@ import { currencyFormatter } from "utils/numberFormatter";
 import fetcher from "utils/fetcher";
 import { YouTube } from "utils/types";
 
-export default function Youtube({ }) {
+export default function Youtube({ users, response }) {
   const { data, error } = useSWR<YouTube>(`api/youtube`, fetcher);
+
+  console.log(users);
 
   const subscriberCount = new String(data?.subscriberCount);
   const viewCount = new String(data?.viewCount);
@@ -19,7 +21,15 @@ export default function Youtube({ }) {
       <div className="flex flex-col justify-center items-start mb-16 w-full text-black dark:text-white">
         <div className="w-full flex flex-col items-center justify-center my-10 min-h-[calc(40vh)]">
           <div className="flex flex-col items-center mb-10">
-            <h2 className="font-bold text-5xl md:text-7xl">{currencyFormatter(subscriberCount)}</h2>
+            {subscriberCount && +subscriberCount > 0 ? (
+              <h2 className="font-bold text-5xl md:text-7xl">
+                {currencyFormatter(subscriberCount)}
+              </h2>
+            ):
+            <h2 className="">
+                loading
+              </h2>
+            }
             <p>
               Subscribers{" "}
               <span className="flex gap-1 items-center text-sm">
@@ -33,7 +43,9 @@ export default function Youtube({ }) {
           </div>
           <div className="flex justify-around gap-5 w-full px-10">
             <div className="flex flex-col items-center">
-              <h2 className="font-bold text-3xl md:text-5xl">{currencyFormatter(viewCount)}</h2>
+              <h2 className="font-bold text-3xl md:text-5xl">
+                {currencyFormatter(viewCount)}
+              </h2>
               <p className="text-sm md:text-md">Views</p>
             </div>
             <div className="flex flex-col items-center">
@@ -49,9 +61,10 @@ export default function Youtube({ }) {
 
 export const getServerSideProps = async () => {
   // const response = await axios.get("https://charleskasasira.com/api/youtube");
+  const response = await fetch("https://charleskasasira.com/api/youtube");
+  const users = await response.json();
 
   return {
-    props: {
-    },
+    props: { users },
   };
 };

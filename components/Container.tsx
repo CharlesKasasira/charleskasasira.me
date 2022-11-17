@@ -30,11 +30,11 @@ function Container(props) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://www.charleskasasira.com${router.asPath}`}
+          content={`https://charleskasasira.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://www.charleskasasira.com${router.asPath}`}
+          href={`https://charleskasasira.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Charles Kasasira" />

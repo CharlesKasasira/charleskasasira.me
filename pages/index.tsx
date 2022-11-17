@@ -71,6 +71,8 @@ export default function Home() {
                 alt="Charles Kasasira"
                 width={80}
                 height={80}
+                placeholder="blur"
+                blurDataURL="/pole.png"
               />
             </div>
           </div>
@@ -232,6 +234,8 @@ export default function Home() {
                       alt="ablestate"
                       width={35}
                       height={35}
+                      placeholder="blur"
+                      blurDataURL="/ablestate.png"
                     />
                   </div>
                   <div className="flex justify-between flex-grow">

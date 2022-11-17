@@ -28,7 +28,8 @@ export default function Projects() {
         <h2 className="tracking-tight my-4 text-gray-700 dark:text-white">
           Projects on Github
         </h2>
-        <Image src={avatar_url} alt="charles kaasira" width={50} height={50} className="rounded-full" />
+        <Image src={avatar_url} alt="charles kaasira" width={50} height={50} className="rounded-full" placeholder="blur"
+                blurDataURL="/pole.png" />
         <div className="flex flex-wrap gap-2 items-center justify-between w-full my-4">
           <h3 className="font-light flex items-center justify-between gap-1"> <RiUserUnfollowFill /> followers: <span className="font-medium">{followers}</span></h3>
           <h3 className="font-light flex items-center justify-between gap-1"><AiFillStar /> stars: <span className="font-medium">{stars}</span></h3>

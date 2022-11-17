@@ -5,9 +5,9 @@ const { Readable } = require("stream");
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   // An array with your links
   const links = [
-    { url: "", changefreq: "daily", priority: 0.3 },
+    { url: "", changefreq: "always", priority: 0.8 },
     { url: "/articles/", changefreq: "daily", priority: 0.3 },
-    { url: "/projects/", changefreq: "daily", priority: 0.3 },
+    { url: "/projects/", changefreq: "weekly", priority: 0.3 },
     { url: "/youtube/", changefreq: "daily", priority: 0.3 },
   ];
 

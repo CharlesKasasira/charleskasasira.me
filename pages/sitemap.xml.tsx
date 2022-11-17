@@ -3,7 +3,9 @@ function generateSiteMap() {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
        <loc>https://charleskasasira.com</loc>
-       <lastmod>2022-11-07</lastmod>
+       <lastmod>2022-11-17</lastmod>
+       <changefreq>always</changefreq>
+        <priority>0.8</priority>
      </url>
      <url>
        <loc>charleskasasira.com</loc>
@@ -28,7 +30,7 @@ function SiteMap() {
 export async function getServerSideProps({ res }) {
   const sitemap = generateSiteMap();
 
-  res.setHeader('Content-Type', 'text/xml');
+  res.setHeader("Content-Type", "text/xml");
   // we send the XML to the browser
   res.write(sitemap);
   res.end();

@@ -1,6 +1,6 @@
 # <a href="https://www.charleskasasira.com">charleskasasira.com</a> 
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://github.com/CharlesKasasira/charleskasasira.com&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=My%20portfolio%20built%20with%20Next.js%2013%2C%20Tailwindcss%2C%20and%20Typescript.%20&url=https://github.com/CharlesKasasira/charleskasasira.com&via=kasasiraC&hashtags=opensource)
 
 
 ## Technology stack

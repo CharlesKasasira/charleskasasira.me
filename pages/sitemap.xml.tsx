@@ -5,19 +5,25 @@ function generateSiteMap() {
        <loc>https://charleskasasira.com</loc>
        <lastmod>2022-11-17</lastmod>
        <changefreq>always</changefreq>
-        <priority>0.8</priority>
+       <priority>0.8</priority>
      </url>
      <url>
-       <loc>charleskasasira.com</loc>
-       <lastmod>2022-11-07</lastmod>
+       <loc>https://charleskasasira.com/projects</loc>
+       <lastmod>2022-11-17</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.3</priority>
      </url>
      <url>
        <loc>https://charleskasasira.com/articles</loc>
-       <lastmod>2022-11-07</lastmod>
+       <lastmod>2022-11-17</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.3</priority>
      </url>
      <url>
        <loc>https://charleskasasira.com/youtube</loc>
-       <lastmod>2022-11-07</lastmod>
+       <lastmod>2022-11-17</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.3</priority>
      </url>
    </urlset>
  `;

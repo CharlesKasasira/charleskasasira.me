@@ -375,7 +375,7 @@ function GithubGraph() {
           </div>
           {/* December */}
           <div className="flex flex-col gap-1">
-            <span className="bg-gray-200 bg-gray-900 text-sm w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4"></span>
+            <span className="bg-gray-900 text-sm w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4"></span>
             <span className="bg-gray-200 text-sm w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4"></span>
             <span className="bg-gray-200 text-sm w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4"></span>
             <span className="bg-gray-200 text-sm w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4"></span>

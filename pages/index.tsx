@@ -22,7 +22,7 @@ export default function Home() {
       <Container>
         <div className="flex flex-col mt-5">
           <div className="flex flex-col-reverse items-start">
-            <div className="flex flex-col pr-8">
+            <div className="flex flex-col md:pr-8">
               <div className="overflow-x-hidden">
                 <motion.h1
                   variants={variants} // Pass the variant object into Framer Motion
@@ -38,20 +38,10 @@ export default function Home() {
                 </motion.h1>
               </div>
 
-              <p className="text-gray-600 dark:text-gray-400 mb-10">
-                Hello, I&apos;m{" "}
-                <span className="font-medium text-gray-700 dark:text-gray-300 underline">
-                  <a
-                    href="https://twitter.com/kasasiraC"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    @charleskasasira
-                  </a>
-                </span>
-                , a software designer and developer based in Kampala, Uganda. I
-                am currently working at{" "}
-                <span className="font-medium text-gray-700 dark:text-gray-300 underline">
+              <p className="mb-5 w-full">
+                Hello, I&apos;m Charles Kasasira , a software designer and
+                developer based in Kampala, Uganda 🇺🇬. I am currently working at{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a
                     href="https://twitter.com/theablestate"
                     target="_blank"
@@ -62,7 +52,21 @@ export default function Home() {
                 </span>{" "}
                 where I am part of a team that designs and develops technologies
                 that empower regular people to achieve great things. I also make
-                tutorial based videos on my small space on youtube.
+                tutorial based videos on my small space on{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
+                  <a href="https://youtube.com/@charleskasasira">youtube</a>
+                </span>{" "}
+                . I am currently a sophomore, Computer Science at{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
+                  <a
+                    href="https://mak.ac.ug"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Makerere University
+                  </a>
+                </span>
+                .
               </p>
             </div>
             <div className="mb-5">
@@ -84,8 +88,7 @@ export default function Home() {
             >
               <AiFillYoutube
                 size={25}
-                color="#4b5563"
-                className="cursor-pointer"
+                className="cursor-pointer text-neutral-500"
               />
             </a>
             <a
@@ -95,8 +98,7 @@ export default function Home() {
             >
               <AiFillGithub
                 size={25}
-                color="#4b5563"
-                className="cursor-pointer"
+                className="cursor-pointer text-neutral-500"
               />
             </a>
             <a
@@ -106,8 +108,7 @@ export default function Home() {
             >
               <AiOutlineTwitter
                 size={25}
-                color="#4b5563"
-                className="cursor-pointer"
+                className="cursor-pointer text-neutral-500"
               />
             </a>
             <a
@@ -117,8 +118,7 @@ export default function Home() {
             >
               <AiFillLinkedin
                 size={25}
-                color="#4b5563"
-                className="cursor-pointer"
+                className="cursor-pointer text-neutral-500"
               />
             </a>
           </div>
@@ -128,7 +128,7 @@ export default function Home() {
               // width="400"
               height="250"
               loading="lazy"
-              title="How to create a custom upload file input"
+              title="How to create a custom upload file input by Charles Kasasira"
               className="outline outline-1 rounded hover:shadow-2xl -rotate-2"
               src="https://www.youtube.com/embed/FtpN8QI9PuA"
             ></iframe>
@@ -136,7 +136,7 @@ export default function Home() {
               // width="400"
               height="250"
               loading="lazy"
-              title="How to create a custom upload file input"
+              title="How to create a custom upload file input by Charles Kasasira"
               className="outline outline-1 rounded hover:shadow-2xl rotate-2"
               src="https://www.youtube.com/embed/1czjJGA5dHQ"
             ></iframe>
@@ -144,7 +144,7 @@ export default function Home() {
               // width="400"
               height="250"
               loading="lazy"
-              title="How to create a custom upload file input"
+              title="How to create a custom upload file input by Charles Kasasira"
               className="outline outline-1 rounded hover:shadow-2xl -rotate-2"
               src="https://www.youtube.com/embed/DAYoeJgolYg"
             ></iframe>

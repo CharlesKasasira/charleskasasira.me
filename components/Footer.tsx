@@ -46,12 +46,11 @@ export default function Footer() {
               Snippets
             </span>
           </Link>
-          {/* <Link href="/tweets">
-            <span className="text-gray-500 hover:text-gray-600 transition">
-              Tweets
-            </span>
-          </Link> */}
         </div>
+      </div>
+      <div className='w-full flex justify-center'>
+        <p>&copy; <span>{new Date().getFullYear()}</span> Charles Kasasira</p>
+        
       </div>
     </footer>
   );

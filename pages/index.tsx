@@ -8,7 +8,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { MdOutlineWorkOutline } from "react-icons/md";
-import { motion, AnimateSharedLayout } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const variants = {

@@ -16,7 +16,7 @@ function Container(props) {
   const meta = {
     title: "Charles Kasasira - Developer, Creator",
     description:
-      "Charles Kasasira is a Front-end developer, Computer Science enthusiast, and youtube creator",
+      "Charles Kasasira is a Front-end developer, Computer Science enthusiast, and youtube creator.",
     type: "website",
     ...customProps,
     image: "https://charleskasasira.com/static/images/charles-kasasira.png",

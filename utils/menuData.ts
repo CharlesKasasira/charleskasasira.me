@@ -1,22 +1,22 @@
 export const menuData = [
   {
     text: "Home",
-    href: "/"
+    href: "/",
   },
   {
     text: "About",
-    href: "/about"
+    href: "/about",
   },
   {
-    text: "Articles",
-    href: "/articles"
+    text: "blog",
+    href: "https://blog.charleskasasira.com",
   },
   {
     text: "Projects",
-    href: "/projects"
+    href: "/projects",
   },
   {
     text: "Youtube",
-    href: "/youtube"
+    href: "/youtube",
   },
-]
+];

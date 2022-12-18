@@ -40,17 +40,23 @@ export default function Youtube({ users, response }) {
             </p>
           </div>
           <div className="flex justify-around gap-5 w-full px-10">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center gap-1">
               {viewCount && +viewCount > 0 ? (
                 <h2 className="font-bold text-3xl md:text-5xl">
                   {currencyFormatter(viewCount)}
                 </h2>
               ) : (
                 <div className="animate-pulse flex space-x-4">
-                  <h2 className="bg-slate-200 rounded font-bold text-3xl md:text-5xl h-6 md:h-8 w-36"></h2>
+                  <h2 className="bg-zinc-200 rounded font-bold text-3xl md:text-5xl h-6 md:h-8 w-36"></h2>
                 </div>
               )}
-              <p className="text-sm md:text-md">Views</p>
+              {viewCount && +viewCount > 0 ? (
+                <p className="text-sm md:text-md">Views</p>
+              ) : (
+                <div className="animate-pulse flex space-x-4">
+                  <p className="bg-zinc-200 rounded text-3xl md:text-5xl h-1 md:h-8 w-36"></p>
+                </div>
+              )}
             </div>
             <div className="flex flex-col items-center">
               {videoCount && +videoCount > 0 ? (

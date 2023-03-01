@@ -39,18 +39,18 @@ export default function Youtube({ users, response }) {
             </p>
           </div>
           <div className="w-full flex gap-5 mb-10 px-2 md:px-20">
-            <div className="w-full relative bg-green-100 h-5 rounded-md">
+            <div className="w-full relative bg-green-100 h-5 md:h-8 rounded-md">
               <div
-                className={`bg-green-500 h-5 rounded-l-md absolute`}
+                className={`bg-green-500 h-5 md:h-8 rounded-l-md absolute text-sm text-white text-center flex justify-center items-center`}
                 style={{ width: `${+subscriberCount / 10}%` }}
-              ></div>
+              >{+subscriberCount / 10}%</div>
             </div>
-            <p>
+            {/* <p>
               {subscriberCount && +subscriberCount > 0
                 ? +subscriberCount / 10
                 : "-"}
               %
-            </p>
+            </p> */}
           </div>
           <div className="flex justify-around gap-5 w-full px-10">
             <div className="flex flex-col items-center gap-1">

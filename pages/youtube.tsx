@@ -39,7 +39,8 @@ export default function Youtube({ users, response }) {
           <div className="w-full flex gap-5 mb-10 px-2 md:px-20">
             <div className="w-full relative bg-green-100 h-5 rounded-md">
               <div
-                className={`bg-green-500 h-5 w-[${+subscriberCount / 10}%] rounded-l-md absolute`}
+                className={`bg-green-500 h-5 rounded-l-md absolute`}
+                style={{ width: `${+subscriberCount / 10}%` }}
               ></div>
             </div>
             <p>

@@ -12,7 +12,7 @@ const handler = async (req, res) => {
     const { full_name, phone, email, dob, gender, password, role } = req.body;
 
     if (!phone) {
-      const response = { Status: "Failure", Details: "Email not provided" };
+      const response = { Status: "Failure", Details: "Phone not provided" };
       return res.status(400).json(response);
     }
 
@@ -21,42 +21,36 @@ const handler = async (req, res) => {
       return res.status(400).json(response);
     }
 
-    const { data: user, error } = await supabase.auth.api.createUser({
+    const { data, error } = await supabase.auth.admin.createUser({
       phone: phone,
       password: password,
-      // email_confirm: true,
+      phone_confirm: true,
+      user_metadata: { role: "admin" },
     });
+    // console.log(req.body);
 
-    if (error) throw error;
-    const { id } = user;
+    console.log(error);
+    // console.log(user);
+    // if (error) throw error;
+    // const { id } = user;
 
-    const response = await supabase
-      .from("profiles")
-      .update({
-        full_name: username,
-        roles: role,
-        phone: phone,
-        gender: gender,
-        email: email,
-      })
-      .eq("id", id);
-    if (response?.error) {
-      throw error;
-    } else {
-      const res = await supabaseClient
-        .from("logs")
-        .insert({
-          description: `Added ${username} - ${roles}`,
-          actor: actor_id,
-          status: "Successful",
+    if (data) {
+      const response = await supabase
+        .from("profiles")
+        .update({
+          full_name: full_name,
+          role: role,
+          phone: phone,
+          gender: gender,
+          email: email,
+          is_admin: true,
+          dob: dob,
         })
-        .eq("id", id);
-
-      const response = {
-        Status: "Success",
-        Details: "Memeber successfully created",
-      };
-      res.status(200).json(response);
+        .eq("id", data.user.id);
+      if (response?.error) {
+        console.log(response?.error);
+        throw error;
+      }
     }
   } catch (error) {
     const response = { Status: "Failure", Details: error };

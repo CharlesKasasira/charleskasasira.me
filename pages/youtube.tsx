@@ -11,6 +11,8 @@ export default function Youtube({ users, response }) {
   const viewCount = new String(data?.viewCount);
   const videoCount = new String(data?.videoCount);
 
+  const percentage = +subscriberCount / 10 + "%";
+
   return (
     <Container title="Youtube - Charles Kasasira">
       <div className="flex flex-col justify-center items-start mb-16 w-full text-black dark:text-white">

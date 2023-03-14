@@ -21,6 +21,7 @@ const handler = async (req, res) => {
       return res.status(400).json(response);
     }
 
+
     const { data, error } = await supabase.auth.admin.createUser({
       phone: phone,
       password: password,
@@ -51,6 +52,7 @@ const handler = async (req, res) => {
         console.log(response?.error);
         throw error;
       }
+
     }
   } catch (error) {
     const response = { Status: "Failure", Details: error };

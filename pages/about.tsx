@@ -56,10 +56,7 @@ export default function About() {
           <h2 className="text-gray-800 dark:text-gray-200 text-lg font-bold">
             Certifications
           </h2>
-          <p>
-            Pursing - Front-End Development Libraries - FreeCodeCamp (working on
-            the projects)
-          </p>
+          <p>Front-End Development Libraries - FreeCodeCamp</p>
           <p>Full-Stack Web Development - Ablestate</p>
           <p>Mobile Application Development with Flutter - GDSC MUK</p>
           <p>D3 Virtualizations - FreeCodeCamp</p>

@@ -1,10 +1,10 @@
 {
-  "name": "charleskasasira.com",
+  "name": "charleskasasira.me",
   "author": {
     "name": "Charles Kasasira",
-    "url": "charleskasasira.com"
+    "url": "charleskasasira.me"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "engine": {
     "node": ">=16"

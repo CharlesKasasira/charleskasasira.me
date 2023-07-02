@@ -215,7 +215,7 @@ export default function Home() {
                 </h2>
                 <hr className="mb-2" />
                 <p>
-                  I have uploaded over 60+ tutorials and planning to add more.
+                  I have uploaded over 75+ tutorials and planning to add more.
                 </p>
                 <a
                   href="https://www.youtube.com/channel/UClhrdUmdjbQi9fMq3R65BVw?sub_confirmation=1"

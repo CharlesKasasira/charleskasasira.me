@@ -278,7 +278,16 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-2 w-full my-2 mb-5">
-                  <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1"></div>
+                  <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1 flex justify-center items-center overflow-hidden">
+                    <Image
+                      src="/whd-logo.png"
+                      alt="ablestate"
+                      width={35}
+                      height={35}
+                      placeholder="blur"
+                      blurDataURL="/whd-logo.png"
+                    />
+                  </div>
                   <div className="flex justify-between flex-grow">
                     <div className="flex flex-col">
                       <p>WHD</p>
@@ -289,7 +298,16 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex gap-2 w-full my-2">
-                  <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1"></div>
+                  <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1 flex justify-center items-center overflow-hidden">
+                    <Image
+                      src="/byte_of_hope.jpg"
+                      alt="ablestate"
+                      width={35}
+                      height={35}
+                      placeholder="blur"
+                      blurDataURL="/byte_of_hope.jpg"
+                    />
+                  </div>
                   <div className="flex justify-between flex-grow">
                     <div className="flex flex-col">
                       <p>Byte Of Hope</p>

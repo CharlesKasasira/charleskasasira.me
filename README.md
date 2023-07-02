@@ -1,4 +1,4 @@
-# <a href="https://www.charleskasasira.com">charleskasasira.com</a> 
+# <a href="https://www.charleskasasira.me">charleskasasira.me</a> 
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=My%20portfolio%20built%20with%20Next.js%2013%2C%20Tailwindcss%2C%20and%20Typescript.%20&url=https://github.com/CharlesKasasira/charleskasasira.com&via=kasasiraC&hashtags=opensource)
 
@@ -21,7 +21,7 @@ $ git clone https://github.com/CharlesKasasira/charleskasasira.com.git
 2. Then go to the project's folder:
 
 ```sh
-cd charleskasasira.com
+cd charleskasasira.me
 ```
 
 3. Install all dependencies:

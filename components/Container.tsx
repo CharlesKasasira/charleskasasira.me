@@ -19,7 +19,7 @@ function Container(props) {
       "Charles Kasasira is a Front-end developer, Computer Science enthusiast, and youtube creator.",
     type: "website",
     ...customProps,
-    image: "https://charleskasasira.com/static/images/charles-kasasira.png",
+    image: "https://charleskasasira.me/static/images/charles-kasasira.png",
   };
 
   return (
@@ -30,11 +30,11 @@ function Container(props) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://charleskasasira.com${router.asPath}`}
+          content={`https://charleskasasira.me${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://charleskasasira.com${router.asPath}`}
+          href={`https://charleskasasira.me${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Charles Kasasira" />

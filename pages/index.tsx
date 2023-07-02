@@ -57,7 +57,7 @@ export default function Home() {
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a href="https://youtube.com/@charleskasasira">youtube</a>
                 </span>{" "}
-                . I am currently a sophomore, Computer Science at{" "}
+                . I am currently a finalist, Computer Science at{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a
                     href="https://mak.ac.ug"
@@ -153,7 +153,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row md:justify-between gap-2 my-10">
             <div>
-              <a href="https://blog.charleskasasira.com/css-art-instagram-logo-with-pure-css">
+              <a href="https://blog.charleskasasira.me/css-art-instagram-logo-with-pure-css">
                 <div className="p-4 rounded cursor-pointer hover:bg-zinc-50 dark:hover:bg-zinc-800 mb-5">
                   <p className="text-sm font-light pl-2 border-l-4 mb-2">
                     May 21, 2022
@@ -170,7 +170,7 @@ export default function Home() {
                   <span className="text-sm text-red-400">Read more</span>
                 </div>
               </a>
-              <a href="https://blog.charleskasasira.com/cheat-sheet-arrays-in-javascript">
+              <a href="https://blog.charleskasasira.me/cheat-sheet-arrays-in-javascript">
                 <div className="p-4 rounded cursor-pointer hover:bg-zinc-50 dark:hover:bg-zinc-800 mb-5">
                   <p className="text-sm font-light pl-2 border-l-4 mb-2">
                     Jan 22, 2022
@@ -187,7 +187,7 @@ export default function Home() {
                   <span className="text-sm text-red-400">Read more</span>
                 </div>
               </a>
-              <a href="https://blog.charleskasasira.com/how-to-click-outside-to-close-in-javascript">
+              <a href="https://blog.charleskasasira.me/how-to-click-outside-to-close-in-javascript">
                 <div className="p-4 rounded cursor-pointer hover:bg-zinc-50 dark:hover:bg-zinc-800 mb-5">
                   <p className="text-sm font-light pl-2 border-l-4 mb-2">
                     January 18, 2022
@@ -234,6 +234,28 @@ export default function Home() {
                   <MdOutlineWorkOutline /> Work
                 </h3>
                 <hr className="mb-2" />
+
+                <div className="flex gap-2 w-full my-2 mb-5">
+                  <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1 flex justify-center items-center overflow-hidden">
+                    <Image
+                      src="/renu.jpg"
+                      alt="RENU"
+                      width={35}
+                      height={35}
+                      placeholder="blur"
+                      blurDataURL="/renu.png"
+                    />
+                  </div>
+                  <div className="flex justify-between flex-grow">
+                    <div className="flex flex-col">
+                      <p>RENU</p>
+                      <p className="text-xs font-light">Intern</p>
+                    </div>
+
+                    <p className="text-sm font-light">2023 - present</p>
+                  </div>
+                </div>
+                
                 <div className="flex gap-2 w-full my-2 mb-5">
                   <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1 flex justify-center items-center overflow-hidden">
                     <Image
@@ -254,6 +276,7 @@ export default function Home() {
                     <p className="text-sm font-light">2021 - present</p>
                   </div>
                 </div>
+                
                 <div className="flex gap-2 w-full my-2 mb-5">
                   <div className="bg-gray-200 rounded-full w-10 h-10 outline outline-1"></div>
                   <div className="flex justify-between flex-grow">

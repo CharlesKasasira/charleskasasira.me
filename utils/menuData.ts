@@ -9,7 +9,7 @@ export const menuData = [
   },
   {
     text: "blog",
-    href: "https://blog.charleskasasira.com",
+    href: "https://blog.charleskasasira.me",
   },
   {
     text: "Projects",

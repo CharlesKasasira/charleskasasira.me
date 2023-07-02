@@ -28,7 +28,7 @@ export default function About() {
             <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
               <a href="https://youtube.com/@charleskasasira">youtube</a>
             </span>{" "}
-            . I am currently a sophomore, Computer Science at{" "}
+            . I am currently a finalist, Computer Science at{" "}
             <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
               <a
                 href="https://mak.ac.ug"
@@ -56,10 +56,8 @@ export default function About() {
           <h2 className="text-gray-800 dark:text-gray-200 text-lg font-bold">
             Certifications
           </h2>
-          <p>
-            Pursing - Front-End Development Libraries - FreeCodeCamp (working on
-            the projects)
-          </p>
+          <p>Pursing - Machine Learning with Python - FreeCodeCamp (working on projects)</p>
+          <p>Front-End Development Libraries - FreeCodeCamp</p>
           <p>Full-Stack Web Development - Ablestate</p>
           <p>Mobile Application Development with Flutter - GDSC MUK</p>
           <p>D3 Virtualizations - FreeCodeCamp</p>
@@ -104,10 +102,10 @@ export default function About() {
             <li>
               Website:{" "}
               <Link
-                href="https://charleskasasira.com"
+                href="https://charleskasasira.me"
                 className="font-medium text-gray-700 dark:text-gray-300 underline"
               >
-                <span>charleskasasira.com</span>
+                <span>charleskasasira.me</span>
               </Link>
             </li>
             <li>

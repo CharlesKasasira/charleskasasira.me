@@ -10,36 +10,34 @@ export default function About() {
         </h1>
         <div className="mb-8 dark:prose-dark text-gray-600 dark:text-gray-400 w-full">
           {/* <h2 className="text-gray-800 dark:text-gray-200">Bio</h2> */}
-          <p>
-            Hello, I&apos;m Charles Kasasira , a software designer and developer
-            based in Kampala, Uganda 🇺🇬. I am currently working at{" "}
-            <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
-              <a
-                href="https://twitter.com/theablestate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @theablestate
-              </a>
-            </span>{" "}
-            where I am part of a team that designs and develops technologies
-            that empower regular people to achieve great things. I also make
-            tutorial based videos on my small space on{" "}
-            <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
-              <a href="https://youtube.com/@charleskasasira">youtube</a>
-            </span>{" "}
-            . I am currently a finalist, Computer Science at{" "}
-            <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
-              <a
-                href="https://mak.ac.ug"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Makerere University
-              </a>
-            </span>
-            .
-          </p>
+          <p className="mb-5 w-full">
+                Hello, I&apos;m Charles Kasasira, a software designer and
+                developer based in Kampala, Uganda 🇺🇬. I am currently doing my internship at{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
+                  <a
+                    href="https://renu.ac.ug"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @RENU
+                  </a>
+                </span>{" "} Uganda&apos;s National Research and Education Network (NREN) where I get to deepen my technical skills. I also make
+                tutorial-based videos on my small space on{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
+                  <a href="https://youtube.com/@charleskasasira">youtube</a>
+                </span>{" "}
+                . I am currently a finalist in Computer Science at{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
+                  <a
+                    href="https://mak.ac.ug"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Makerere University
+                  </a>
+                </span>
+                .
+              </p>
           <br />
           <br />
           <h2 className="text-gray-800 dark:text-gray-200 text-lg font-bold">

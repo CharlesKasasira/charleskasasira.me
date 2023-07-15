@@ -33,31 +33,30 @@ export default function Home() {
                   transition={{ type: "linear" }} // Set the transition to linear
                   className="font-bold text-3xl md:text-4xl tracking-tight mb-5 text-black dark:text-white font-sans"
                 >
-                  Software designer + developer 🦄,
+                  Software designer + developer,
                   <br />
                   and small youtuber
                 </motion.h1>
               </div>
 
               <p className="mb-5 w-full">
-                Hello, I&apos;m Charles Kasasira , a software designer and
-                developer based in Kampala, Uganda 🇺🇬. I am currently working at{" "}
+                Hello, I&apos;m Charles Kasasira, a software designer and
+                developer based in Kampala, Uganda 🇺🇬. I am currently doing my internship at{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a
-                    href="https://twitter.com/theablestate"
+                    href="https://renu.ac.ug"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    @theablestate
+                    @RENU
                   </a>
-                </span>{" "}
-                where I am part of a team that designs and develops technologies
-                that empower regular people to achieve great things. I also make
-                tutorial based videos on my small space on{" "}
+                </span>{" "} Uganda&apos;s NREN
+                where I get to deepen my technical skills. I also make
+                tutorial-based videos on my small space on{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a href="https://youtube.com/@charleskasasira">youtube</a>
                 </span>{" "}
-                . I am currently a finalist, Computer Science at{" "}
+                . I am currently a finalist in Computer Science at{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a
                     href="https://mak.ac.ug"

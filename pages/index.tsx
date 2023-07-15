@@ -50,7 +50,7 @@ export default function Home() {
                   >
                     @RENU
                   </a>
-                </span>{" "} Uganda&apos;s NREN
+                </span>{" "} Uganda&apos;s National Research and Education Network (NREN)
                 where I get to deepen my technical skills. I also make
                 tutorial-based videos on my small space on{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">

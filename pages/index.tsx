@@ -41,22 +41,7 @@ export default function Home() {
 
               <p className="mb-5 w-full">
                 Hello, I&apos;m Charles Kasasira, a software designer and
-                developer based in Kampala, Uganda 🇺🇬. I am currently doing my internship at{" "}
-                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
-                  <a
-                    href="https://renu.ac.ug"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    @RENU
-                  </a>
-                </span>{" "} Uganda&apos;s National Research and Education Network (NREN)
-                where I get to deepen my technical skills. I also make
-                tutorial-based videos on my small space on{" "}
-                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
-                  <a href="https://youtube.com/@charleskasasira">youtube</a>
-                </span>{" "}
-                . I am currently a finalist in Computer Science at{" "}
+                developer based in Kampala, Uganda 🇺🇬. I am currently doing my final year in Computer Science at{" "}
                 <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
                   <a
                     href="https://mak.ac.ug"
@@ -65,7 +50,14 @@ export default function Home() {
                   >
                     Makerere University
                   </a>
-                </span>
+                </span>{" "}. Over the past 3 years, I have had the privilege of working on a wide range of projects, each presenting its own unique challenges and opportunities. 
+                These experiences have allowed me to become proficient in multiple computing concepts, programming languages and development frameworks, equipping me with the versatility needed 
+                to adapt to the ever-evolving tech landscape. 
+                When I'm not immersed in lines of code, I record and edit
+                tutorial-based videos on my small space on{" "}
+                <span className="font-medium text-gray-700 dark:text-gray-300 underline cursor-pointer">
+                  <a href="https://youtube.com/@charleskasasira">youtube</a>
+                </span>{" "}
                 .
               </p>
             </div>

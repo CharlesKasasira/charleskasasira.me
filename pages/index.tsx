@@ -243,7 +243,7 @@ export default function Home() {
                       <p className="text-xs font-light">Intern</p>
                     </div>
 
-                    <p className="text-sm font-light">2023 - present</p>
+                    <p className="text-sm font-light">Aug 2023</p>
                   </div>
                 </div>
                 
@@ -264,7 +264,7 @@ export default function Home() {
                       <p className="text-xs font-light">Front-End</p>
                     </div>
 
-                    <p className="text-sm font-light">2021 - present</p>
+                    <p className="text-sm font-light">May 2023</p>
                   </div>
                 </div>
                 

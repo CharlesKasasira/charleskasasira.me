@@ -48,6 +48,8 @@ export default function About() {
             Certifications
           </h2>
           <p>Machine Learning with Python - FreeCodeCamp</p>
+          <p>Introduction to Generative AI - Google Cloud Skill Boost</p>
+          <p>Introduction to Machine Learning - Kaggle</p>
           <p>Front-End Development Libraries - FreeCodeCamp</p>
           <p>Full-Stack Web Development - Ablestate</p>
           <p>Mobile Application Development with Flutter - GDSC MUK</p>
